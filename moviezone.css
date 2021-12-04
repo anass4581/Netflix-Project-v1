@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;/*body is not a class its a html element thay y we dnt use . */
+    background-color: black;
+}
+
+
+.container .head{
+    /* background-color: rgb(8, 8, 199); */
+    position: absolute;
+    width: 90%;
+    left: 0px;
+    top: 0px;
+
+    
+    
+    /* right: 0px; */
+    display: flex;
+    justify-content: space-between; /*align item in centre*/
+    align-items: center;
+    padding: 10px 50px;
+    z-index: 1000;/* to overlap two thinngs*/
+}
+.container .head img{
+    width: 13%;
+}
+.home-image{
+    background-image: url(assets/home.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+    /* padding: ; */
+    /* filter: brightness(); */
+    /* margin-bottom: 60px; */
+    /* margin-top: 90px; */
+}
+.home-image-text{
+    color: white;
+    position: relative;
+    width: 30%;
+    top: 13em;
+    left: 3em;
+    z-index: 1;
+}
+.money{
+    width: 100%;
+
+}
+.play-button{
+    background-color: red;
+    width: 90px;
+    color: black;
+    border-radius: 4px;
+    font-size: 25px;
+    padding: 5px 20px ;
+    
+}
+
+.play-button img{
+    width: 25px;
+    margin-top: 1px;
+    padding-left: 5px;
+    position: absolute;
+}
+.original{
+    color: aliceblue;
+    
+}
+.original h3{
+    margin-top: 5px;
+}
+.no-title{
+    font-size: 25px;
+    padding-left: 10px;
+    font-weight: 5px;
+    margin-bottom: 15px;
+
+}
+.no img{
+    width: 160px;
+    height: 280px;
+    margin: 3px;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+.no img:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness(70%);
+}
+.no{
+    display: flex;
+    height: 48vh;
+    /* padding-top: 2px;
+    margin-left: 0px;
+    margin-bottom: -50px;*/
+    overflow-y: hidden; 
+}
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}
+::-webkit-scrollbar{
+    width: 1px;
+    background: transparent;
+    
+}
